@@ -1,8 +1,8 @@
-# SGCC-SD-G29319
+# Growatt-SGCCSD
 
 国网山东存量光伏逆变器 G-29319 目击测试安规改造台账。
 
-**在线查看:** https://lomolanisgo.github.io/SGCC-SD-G29319/
+**在线查看:** https://lomolanisgo.github.io/Growatt-SGCCSD/
 
 改造内容:低压穿越使能(保持寄存器 1 的 bit2)+ 一/二/三阶过欠压保护时间置 125。
 写入前逐台校验已验证基线,保护点电压寄存器 72~75 全程禁写,写后复读确认无漂移。
