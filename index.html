@@ -32,6 +32,9 @@ header{display:flex;flex-direction:column;gap:6px;
 h1{margin:0;font-size:26px;font-weight:650;letter-spacing:-.01em;
   text-wrap:balance}
 .sub{color:var(--muted);font-size:13.5px}
+a.dl{color:var(--accent);font-weight:600;text-decoration:none;
+  border-bottom:1px solid currentColor}
+a.dl:hover,a.dl:focus-visible{opacity:.75}
 .eyebrow{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;
   color:var(--accent);font-weight:600}
 
@@ -103,7 +106,9 @@ footer{color:var(--muted);font-size:12.5px;border-top:1px solid var(--line);
   <div class="eyebrow">G-29319 目击测试 · 存量机安规改造</div>
   <h1>古瑞瓦特逆变器改造台账</h1>
   <div class="sub">低压穿越使能(寄存器 1 bit2)+ 一/二/三阶过欠压保护时间置 125 ·
-    数据截至北京时间 2026-08-16 18:05</div>
+    数据截至北京时间 2026-08-16 18:58</div>
+  <div class="sub"><a class="dl" href="ledger.xlsx" download>下载 Excel 台账</a>
+    —— 含批次汇总、待重试清单与每批明细</div>
 </header>
 
 <div class="kpis">
